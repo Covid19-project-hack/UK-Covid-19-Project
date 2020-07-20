@@ -221,7 +221,7 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onResponse(JSONObject response) {
                         try {
-                            JSONObject jsonObject = response.getJSONObject("AN").getJSONObject("total");
+                            JSONObject jsonObject = response.getJSONObject("UT").getJSONObject("total");
                             String confirmed = jsonObject.getString("confirmed");
                             String tested = jsonObject.getString("tested");
                             String recovered = jsonObject.getString("recovered");

@@ -11,7 +11,7 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-import com.ukcovid19project.HealthCareActivity;
+
 import com.ukcovid19project.MedicalStoresActivity;
 import com.ukcovid19project.OrphanageSupport.FreeFoodActivity;
 import com.bumptech.glide.Glide;
@@ -93,7 +93,8 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.ImageViewHolde
                                 break;
 
                             case 3:
-                                Intent healthcareintent = new Intent(mContext, HealthCareActivity.class);
+                                Intent healthcareintent = new Intent(Intent.ACTION_VIEW);
+                                healthcareintent.setData(Uri.parse(jsons.getHealth_cares()));
                                 mContext.startActivity(healthcareintent);
                                 break;
 
