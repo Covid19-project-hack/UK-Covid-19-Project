@@ -19,6 +19,7 @@
             android:name=".OnlineEducationActivity"
             android:label="Online Education"
             android:screenOrientation="unspecified" />
+
         <activity
             android:name=".Login.SplashActivity"
             android:theme="@style/AppThemeDonate">

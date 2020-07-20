@@ -58,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
     String[] web = {
             "Corona Status",
             "Home Treatment",
+            "Toll Numbers",
             "My Health Status",
             "Health Cares",
             "Medical stores",
@@ -78,6 +79,7 @@ public class MainActivity extends AppCompatActivity {
     int[] imageId = {
             R.drawable.corona,
             R.drawable.home,
+            R.drawable.phone,
             R.drawable.health,
             R.drawable.healthcare,
             R.drawable.medical_store,

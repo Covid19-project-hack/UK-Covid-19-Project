@@ -3,12 +3,12 @@ package com.ukcovid19project.Models;
 public class Jsons {
 
     String home_treatment_images, home_treatment_links, lab_test, donate,
-            tweets, faq, epass, corona, cbse, vocational_education, go,health_cares;
+            tweets, faq, epass, corona, cbse, vocational_education, go,health_cares,toll_numbers;
 
     public Jsons() {
     }
 
-    public Jsons(String home_treatment_images, String home_treatment_links, String lab_test, String donate, String tweets, String faq, String epass, String corona, String cbse, String vocational_education, String go, String health_cares) {
+    public Jsons(String home_treatment_images, String home_treatment_links, String lab_test, String donate, String tweets, String faq, String epass, String corona, String cbse, String vocational_education, String go, String health_cares, String toll_numbers) {
         this.home_treatment_images = home_treatment_images;
         this.home_treatment_links = home_treatment_links;
         this.lab_test = lab_test;
@@ -21,6 +21,7 @@ public class Jsons {
         this.vocational_education = vocational_education;
         this.go = go;
         this.health_cares = health_cares;
+        this.toll_numbers = toll_numbers;
     }
 
     public String getHome_treatment_images() {
@@ -117,5 +118,13 @@ public class Jsons {
 
     public void setHealth_cares(String health_cares) {
         this.health_cares = health_cares;
+    }
+
+    public String getToll_numbers() {
+        return toll_numbers;
+    }
+
+    public void setToll_numbers(String toll_numbers) {
+        this.toll_numbers = toll_numbers;
     }
 }
